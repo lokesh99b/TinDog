@@ -22,7 +22,7 @@ const NavigationBar = () => {
           <a className="navbar-brand col-lg-3 me-0" href="#">TinDog</a>
           <ul className="navbar-nav col-lg-6 justify-content-lg-center">
             <li className="nav-item">
-              <Link className="nav-link active" to="/">Home</Link>
+              <Link className="nav-link active" to="/TinDog">Home</Link>
             </li>
             <li className="nav-item">
               <Link className="nav-link" to="/LoginSignUp">Login</Link>
@@ -30,9 +30,9 @@ const NavigationBar = () => {
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Dropdown</a>
               <ul className="dropdown-menu">
-                <li><a className="dropdown-item" href="#">Pricng</a></li>
-                <li><a className="dropdown-item" href="#">Testimonial</a></li>
-                <li><a className="dropdown-item" href="#">Features</a></li>
+                <li><a className="dropdown-item" href="/TinDog">Pricng</a></li>
+                <li><a className="dropdown-item" href="/TinDog">Testimonial</a></li>
+                <li><a className="dropdown-item" href="/TinDog">Features</a></li>
               </ul>
             </li>
           </ul>
