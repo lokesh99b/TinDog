@@ -1,0 +1,20 @@
+img {
+  border: 2px solid whitesmoke;
+}
+
+
+#first {
+  background-image: url(../assets/images/DogsPlayingtwo.jpg);
+}
+
+#second{
+  background-image: url(../assets/images/Dogsplayingthree.jpg);
+}
+
+#third {
+  background-image: url(../assets/images/DogsPlayingfour.jpg);
+}
+
+#two img {
+  gap: 20px;
+}
